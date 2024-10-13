@@ -1,0 +1,97 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hotkey-list {
+    margin-bottom: 20px;
+  }
+  
+  .hotkey-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .shortcut {
+    flex: 1;
+  }
+  
+  .type {
+    flex: 1;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .edit-button,
+  .delete-button,
+  .add-button,
+  .save-button,
+  .cancel-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .hotkey-editor {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .hotkey-editor label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile Manager Styles */
+  .profile-manager {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-manager ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-item span {
+    flex: 1;
+  }
+  
+  .profile-item button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .create-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .create-profile input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }  

@@ -1,0 +1,62 @@
+{
+    "name": "keywick",
+    "version": "1.0.0",
+    "description": "A Universal Hotkey Manager for Electron Applications",
+    "main": "dist/bundle.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "npm run build:prod",
+        "build:prod": "webpack --config webpack.prod.js",
+        "test": "jest",
+        "lint": "eslint 'src/**/*.{ts,tsx}'",
+        "format": "prettier --write 'src/**/*.{ts,tsx,css}'",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wickstudio/keywick.git"
+    },
+    "keywords": [
+        "electron",
+        "hotkeys",
+        "react",
+        "typescript",
+        "library",
+        "keyboard shortcuts",
+        "hotkey manager"
+    ],
+    "author": "wickstudio",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^17.0.0 || ^18.0.0",
+        "react-dom": "^17.0.0 || ^18.0.0"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^12.1.5",
+        "@types/jest": "^28.1.8",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "css-loader": "^6.0.0",
+        "electron": "^32.2.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.10.0",
+        "eslint-plugin-react": "^7.37.1",
+        "jest-environment-jsdom": "^29.7.0",
+        "prettier": "^2.8.8",
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0",
+        "style-loader": "^3.0.0",
+        "ts-jest": "^29.2.5",
+        "ts-loader": "^9.0.0",
+        "typescript": "^4.0.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^4.0.0",
+        "webpack-merge": "^5.0.0"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ]
+}
